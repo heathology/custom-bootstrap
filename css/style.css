@@ -1,0 +1,277 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #FAF9F6;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    align-items: center;
+    
+}
+
+.logo {
+    max-width: 75px;
+}
+
+.nav-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0 5px 0 0;
+    background:#8b5f8b;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-item:first-child {
+    margin-right: auto;
+    margin-left: 2rem;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 4rem;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+    
+}
+
+@media only screen and (min-width: 2001px) {
+    .carousel-caption h1 {
+            font-size: 150px;
+        }
+}
+
+@media only screen and (min-width: 1801px) and (max-width: 2000px) {
+    .carousel-caption h1 {
+        font-size: 115px;
+    }
+}
+
+@media only screen and (min-width: 1090px) and (max-width: 1800px) {
+    .carousel-caption h1 {
+        font-size: 75px;
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1023.98px) {
+    .carousel-caption h1 {
+        font-size: 65px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .carousel-caption h1 {
+        font-size: 55px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .carousel-caption h1 {
+        font-size: 50px;
+    }
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+    height: 32rem;
+}
+
+/* Carousel overlay */
+.carousel-item::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.7;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+/* rtl:end:ignore */
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+    margin: 5rem 0;
+    /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+/* rtl:begin:remove */
+.featurette-heading {
+    letter-spacing: -.05rem;
+}
+
+/* rtl:end:remove */
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+}
+
+
+/*.hero {
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://heathmediadesigns.com/custom-bootstrap/img/okc-downtown.jpg");
+    height: 100vh; <--sets hero height
+    width: 100%;  < -- sets hero width
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+} */
+
+.hero-img {
+    
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 100vh;
+        /* sets hero height */
+        width: 100%;
+        /* sets hero width */
+}
+
+.hero-img-1 {
+background-image: url(http://heathmediadesigns.com/custom-bootstrap/img/okc-downtown.jpg);
+
+}
+
+.hero-img-2 {
+    background-image: url(http://heathmediadesigns.com/custom-bootstrap/img/oklahoma-city-1626593_1920.jpg);
+}
+
+.hero-img-3 {
+    background-image: url(http://heathmediadesigns.com/custom-bootstrap/img/chisholm-creek.jpg);
+}
+
+@media only screen and (max-width: 480px) {
+.hero {
+    width: 100%; /* sets hero width for mobile */
+}
+}
+
+/*.hero-text {
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, .75);
+      
+    
+} */
+
+.parallax {
+    /* The image used */
+    background-image: url("http://heathmediadesigns.com/custom-bootstrap/img/okc-skyline.jpg");
+
+    /* Set a specific height */
+    min-height: 300px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.parrallax-text {
+    font-size: 1.4rem;
+    text-align: left;
+    color: white;
+    
+
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.65);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.circle-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.featurette-image-1 {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+ a,
+ a:hover,
+ a:focus,
+ a:active {
+     text-decoration: none;
+     color: inherit;
+ }
