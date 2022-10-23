@@ -85,6 +85,11 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+    .carousel {
+        max-width: 300px;
+        margin: 0 auto;
+        background-position: center;
+        }
     .carousel-caption h1 {
         font-size: 50px;
     }
@@ -186,6 +191,7 @@ body {
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
+        background-position: center;
         height: 100vh;
         /* sets hero height */
         width: 100%;

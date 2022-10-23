@@ -28,8 +28,9 @@
     <body class="antialiased items-center justify-center w-screen h-screen">
         <!-- Header Section -->
         <header>
-            <nav>
-                <ul class="nav-list">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <ul class="nav-list">
                     <li class="nav-item"><a href="#home"><img class="logo" src="img/heathology-logo-2.png" alt="heathology logo"></a></li>
                     <li class="nav-item"><a href="#home">Home</a></li>
                     <li class="nav-item"><a href="#about">About</a></li>
@@ -40,7 +41,7 @@
                     <button class="btn btn-primary" type="submit">Search</button>
                 </form>
                 </ul>
-                
+               </div> 
             </nav>
         </header>
         <!-- Main Page Content -->
@@ -54,17 +55,17 @@
                 <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active hero-img hero-img-1" aria-label="Downtown OKC Scissortail Park Image">
+                <div class="carousel-item active hero-img hero-img-1 img-fluid" aria-label="Downtown OKC Scissortail Park Image">
         
                     <div class="container">
                         <div class="carousel-caption text-start">
                             <h1>OKC Scissortail Park</h1>
-                            <p>Some representative placeholder content for the first slide of the carousel.</p>
+                            <p>Welcoming and playful environment in downtown OKC which integrates Oklahoma nature and culture.</p>
                             <p><a class="btn btn-lg btn-primary" href="https://scissortailpark.org/">Learn more</a></p>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item hero-img hero-img-2" aria-label="Oklahoma City National Memorial Image">
+                <div class="carousel-item hero-img hero-img-2 img-fluid" aria-label="Oklahoma City National Memorial Image">
                     
         
                     <div class="container">
@@ -75,11 +76,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item hero-img hero-img-3" aria-label="Oklahoma City National Memorial Image">
+                <div class="carousel-item hero-img hero-img-3 img-fluid" aria-label="Oklahoma City National Memorial Image">
                     <div class="container">
                         <div class="carousel-caption text-end">
-                            <h1>One more <br>for good measure.</h1>
-                            <p>Some representative placeholder content for the third slide of this carousel.</p>
+                            <h1>Chisholm Creek</h1>
+                            <p>OKC's newest entertainment district highlighting pedestrian-friendly venues.</p>
                             <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
                         </div>
                     </div>
@@ -113,7 +114,7 @@
                     <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                    <img class="circle-image" src="http://heathmediadesigns.com/custom-bootstrap/img/paycom-center-thunder.jpg" alt="paycom center thunder okc">
+                    <a href="#"><img class="circle-image" src="http://heathmediadesigns.com/custom-bootstrap/img/paycom-center-thunder.jpg" alt="paycom center thunder okc"></a>
         
                     <a href="#" alt="okc events link"><h2 class="fw-normal">OKC Events</h2></a>
                     <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second
@@ -149,12 +150,12 @@
         
             <div class="row featurette">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading fw-normal lh-1">Midtown. <span class="text-muted">Come together.</span></h2>
+                    <a href="#"><h2 class="featurette-heading fw-normal lh-1">Midtown. <span class="text-muted">Come together.</span></h2></a>
                     <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose
                         here.</p>
                 </div>
                 <div class="col-md-5">
-                    <img class="featurette-image-1" src="http://heathmediadesigns.com/custom-bootstrap/img/midtown-okc.jpg" alt="midtown okc">
+                    <a href="#"><img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="http://heathmediadesigns.com/custom-bootstrap/img/midtown-okc.jpg" alt="midtown okc"></a>
         
                 </div>
             </div>
@@ -163,12 +164,12 @@
         
             <div class="row featurette">
                 <div class="col-md-7 order-md-2">
-                    <h2 class="featurette-heading fw-normal lh-1">Automobile Alley.<span class="text-muted">Where the neon lights are bright.</span></h2>
+                    <a href="#"><h2 class="featurette-heading fw-normal lh-1">Automobile Alley.<span class="text-muted">Where the neon lights are bright.</span></h2></a>
                     <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this
                         layout would work with some actual real-world content in place.</p>
                 </div>
                 <div class="col-md-5 order-md-1">
-                <img class="featurette-image-1" src="http://heathmediadesigns.com/custom-bootstrap/img/Automobile-alley-lamp-buick.jpg" alt="automobile alley okc">
+                <a href="#"><img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="http://heathmediadesigns.com/custom-bootstrap/img/Automobile-alley-lamp-buick.jpg" alt="automobile alley okc"></a>
         
                 </div>
             </div>
@@ -177,15 +178,15 @@
         
             <div class="row featurette">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading fw-normal lh-1">Unique Art. <span
-                            class="text-muted">Check.</span></h2>
+                    <a href="#"><h2 class="featurette-heading fw-normal lh-1">Unique Art. <span
+                            class="text-muted">Check.</span></h2></a>
                     <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really
                         intended to be actually read, simply here to give you a better view of what this would look like with
                         some actual content. Your content.</p>
                 </div>
                 <div class="col-md-5">
-                    <img class="featurette-image-1" src="http://heathmediadesigns.com/custom-bootstrap/img/paseo.jpg"
-                        alt="paseo district okc">
+                    <a href="#"><img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="http://heathmediadesigns.com/custom-bootstrap/img/paseo.jpg"
+                        alt="paseo district okc"></a>
         
                 </div>
             </div>
@@ -225,6 +226,7 @@
                     <div class="col-6 col-md-2 mb-3">
                         <h5>Section</h5>
                         <ul class="nav flex-column">
+                            
                             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
                             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
                             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
