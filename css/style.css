@@ -6,18 +6,18 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     align-items: center;
-    
+
 }
 
 .logo {
     max-width: 75px;
 }
 
-.nav-list{
+.nav-list {
     list-style-type: none;
     margin: 0;
     padding: 0 5px 0 0;
-    background:#8b5f8b;
+    background: #8b5f8b;
     text-align: right;
     display: flex;
     justify-content: flex-end;
@@ -52,13 +52,13 @@ body {
 .carousel-caption {
     bottom: 3rem;
     z-index: 10;
-    
+
 }
 
 @media only screen and (min-width: 2001px) {
     .carousel-caption h1 {
-            font-size: 150px;
-        }
+        font-size: 150px;
+    }
 }
 
 @media only screen and (min-width: 1801px) and (max-width: 2000px) {
@@ -78,6 +78,7 @@ body {
         font-size: 65px;
     }
 }
+
 @media only screen and (max-width: 800px) {
     .carousel-caption h1 {
         font-size: 55px;
@@ -85,11 +86,6 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-    .carousel {
-        max-width: 300px;
-        margin: 0 auto;
-        background-position: center;
-        }
     .carousel-caption h1 {
         font-size: 50px;
     }
@@ -187,19 +183,18 @@ body {
 } */
 
 .hero-img {
-    
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-        background-position: center;
-        height: 100vh;
-        /* sets hero height */
-        width: 100%;
-        /* sets hero width */
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    /* sets hero height */
+    width: 100%;
+    /* sets hero width */
 }
 
 .hero-img-1 {
-background-image: url(http://heathmediadesigns.com/custom-bootstrap/img/okc-downtown.jpg);
+    background-image: url(http://heathmediadesigns.com/custom-bootstrap/img/okc-downtown.jpg);
 
 }
 
@@ -212,9 +207,10 @@ background-image: url(http://heathmediadesigns.com/custom-bootstrap/img/okc-down
 }
 
 @media only screen and (max-width: 480px) {
-.hero {
-    width: 100%; /* sets hero width for mobile */
-}
+    .hero {
+        width: 100%;
+        /* sets hero width for mobile */
+    }
 }
 
 /*.hero-text {
@@ -243,7 +239,7 @@ background-image: url(http://heathmediadesigns.com/custom-bootstrap/img/okc-down
     font-size: 1.4rem;
     text-align: left;
     color: white;
-    
+
 
 }
 
@@ -274,10 +270,10 @@ background-image: url(http://heathmediadesigns.com/custom-bootstrap/img/okc-down
     object-fit: cover;
 }
 
- a,
- a:hover,
- a:focus,
- a:active {
-     text-decoration: none;
-     color: inherit;
- }
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
